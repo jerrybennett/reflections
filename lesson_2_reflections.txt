@@ -11,11 +11,15 @@ The repository is where the changes are committed and saved.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+You can run git diff --staged to see what changes have been made.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+creating a new version of an app with a different language.
+creating a different version for experimenting with like adding different features.
 
 How do the diagrams help you visualize the branch structure?
+well, it's a picture that helps describe what is happening visually.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?

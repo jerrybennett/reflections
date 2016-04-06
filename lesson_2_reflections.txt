@@ -26,3 +26,5 @@ All of the changes made to each branch are combined into one branch.
 
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
+pro: You don't have to specify what changes (commits) you want added or left out of the new merged branch.
+con: If you have commits with bad/broken code it can cause problems.

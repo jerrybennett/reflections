@@ -22,3 +22,6 @@
 - You can work on the most recent version of the remote without an Internet connection.
  If someone makes changes to remote files you are also working on locally, it will be easy to compare and edit before pushing back up to the remote. Also, you can make changes and merge your branch(es) into the remote branch and push them up when you can get back on line.
 
+5. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+- I would probably set up a locked 'master' (but downloadable) folder in Dropbox or Google Drive. When someone changes something in a file they must comment and highlight the changed sections and email to the 'Editor'. The 'Editor'would be the only person who would compare the changes and updates and place finished files back into the 'master.' The 'Editor' would have to send an email to the entire team letting them know what has changed and that it is available for download and editing again. I know this is a terrible plan. The only easy thing about this would be drag and drop saving of files maybe? Everything else would be harder. After working with Git and Github, it is easy to see how useful these tools are for collaboration.

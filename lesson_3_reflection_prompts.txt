@@ -1,18 +1,24 @@
-When would you want to use a remote repository rather than keeping all your work local?
+1. When would you want to use a remote repository rather than keeping all your work local?
 
 - You can work on files from a different computer.
 - You can share and work on projects with others.
 - It is good to have a remote back up in case something happens to your local copy.
 
-Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+2. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 - You may be working on a team and not need or want to work on files placed in the repository.
 - A file may get changed remotely by someone else. You may not want your local version to change because you have also made changes.
 
-Describe the differences between forks, clones, and branches. When would you use one instead of another?
+3. Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
 - Fork: A copy of someones repository that you can clone and work on with out affecting the original repository. All attributions of the original repo link back to the author. If I wanted to contribute to someone elses repository I would fork it, make changes and send a pull request to the creator of the original repository.
 
 - Clone: An exact copy of a repository. Usually you clone a remote copy locally or clone a local copy remotely.
 
 - Branch: A copy of the original (or "master") Git commit of a repository that can be altered without affecting the "master" branch. After changes have been made you can easily merge the new branch back into the "master." Branches are useful for making bug fixes and experimenting with new features of a project.
+
+4. What is the benefit of having a copy of the last known state of the remote stored locally?
+
+- You can work on the most recent version of the remote without an Internet connection.
+ If someone makes changes to remote files you are also working on locally, it will be easy to compare and edit before pushing back up to the remote. Also, you can make changes and merge your branch(es) into the remote branch and push them up when you can get back on line.
+

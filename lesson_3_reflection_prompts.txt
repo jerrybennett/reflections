@@ -25,3 +25,8 @@
 5. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 - I would probably set up a locked 'master' (but downloadable) folder in Dropbox or Google Drive. When someone changes something in a file they must comment and highlight the changed sections and email to the 'Editor'. The 'Editor'would be the only person who would compare the changes and updates and place finished files back into the 'master.' The 'Editor' would have to send an email to the entire team letting them know what has changed and that it is available for download and editing again. I know this is a terrible plan. The only easy thing about this would be drag and drop saving of files maybe? Everything else would be harder. After working with Git and Github, it is easy to see how useful these tools are for collaboration.
+
+6. When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+- The biggest advantage I see to making changes in a separate branch is when you are working on major changes, bug fixes, feature updates and/or experiments. A separate branch won't break the 'master' (or any other) branches code.
+- Making changes to the 'master' branch directly would be nice for smaller (maybe personal) projects because it would not be as difficult to update repositories and keep track of merging.
